@@ -1,0 +1,266 @@
+{
+	"type":"Live2D Model Setting",
+	"name":"board_01",
+	"model":"board_01.moc",
+	"textures":
+	[
+		"board_01.256/texture_00.png",
+		"board_01.256/texture_01.png"
+	],
+	
+	
+	
+	"layout":
+	{
+		"center_x":0.0,
+		"y":-0.8,
+		"width":1.8
+	},
+	
+	
+	"expressions":
+	[
+		{"name":"select_off","file":"motions/select/select00.exp.json"},
+		{"name":"select_on","file":"motions/select/select01.exp.json"},
+
+		{"name":"v_0","file":"motions/voltage/v_0.exp.json"},
+		{"name":"v_1","file":"motions/voltage/v_1.exp.json"},
+		{"name":"v_2","file":"motions/voltage/v_2.exp.json"},
+		{"name":"v_3","file":"motions/voltage/v_3.exp.json"},
+		{"name":"v_4","file":"motions/voltage/v_4.exp.json"},
+		{"name":"v_5","file":"motions/voltage/v_5.exp.json"},
+		{"name":"v_6","file":"motions/voltage/v_6.exp.json"},
+		{"name":"v_7","file":"motions/voltage/v_7.exp.json"},
+		{"name":"v_8","file":"motions/voltage/v_8.exp.json"},
+		{"name":"v_9","file":"motions/voltage/v_9.exp.json"},
+		
+		{"name":"v0" ,"file":"motions/voltage/v0.exp.json"},
+		{"name":"v01","file":"motions/voltage/v1.exp.json"},
+		{"name":"v02","file":"motions/voltage/v2.exp.json"},
+		{"name":"v03","file":"motions/voltage/v3.exp.json"},
+		{"name":"v04","file":"motions/voltage/v4.exp.json"},
+		{"name":"v05","file":"motions/voltage/v5.exp.json"},
+		
+		
+		{"name":"c01","file":"motions/charge/c01.exp.json"},
+		{"name":"c00","file":"motions/charge/c00.exp.json"},
+			
+		
+		{"name":"t_0","file":"motions/temp/t_0.exp.json"},
+		{"name":"t_1","file":"motions/temp/t_1.exp.json"},
+		{"name":"t_2","file":"motions/temp/t_2.exp.json"},
+		{"name":"t_3","file":"motions/temp/t_3.exp.json"},
+		{"name":"t_4","file":"motions/temp/t_4.exp.json"},
+		{"name":"t_5","file":"motions/temp/t_5.exp.json"},
+		{"name":"t_6","file":"motions/temp/t_6.exp.json"},
+		{"name":"t_7","file":"motions/temp/t_7.exp.json"},
+		{"name":"t_8","file":"motions/temp/t_8.exp.json"},
+		{"name":"t_9","file":"motions/temp/t_9.exp.json"},
+		
+		{"name":"t0","file":"motions/temp/t0.exp.json"},
+		{"name":"t01","file":"motions/temp/t01.exp.json"},
+		{"name":"t02","file":"motions/temp/t02.exp.json"},
+		{"name":"t03","file":"motions/temp/t03.exp.json"},
+		{"name":"t04","file":"motions/temp/t04.exp.json"},
+		{"name":"t05","file":"motions/temp/t05.exp.json"},
+		{"name":"t06","file":"motions/temp/t06.exp.json"},
+		{"name":"t07","file":"motions/temp/t07.exp.json"},
+		{"name":"t08","file":"motions/temp/t08.exp.json"},
+		{"name":"t09","file":"motions/temp/t09.exp.json"},
+		
+		{"name":"t00","file":"motions/temp/t00.exp.json"},
+		{"name":"t10","file":"motions/temp/t10.exp.json"},
+		{"name":"t20","file":"motions/temp/t20.exp.json"},
+		{"name":"t30","file":"motions/temp/t30.exp.json"},
+		{"name":"t40","file":"motions/temp/t40.exp.json"},
+		{"name":"t50","file":"motions/temp/t50.exp.json"},
+		{"name":"t60","file":"motions/temp/t60.exp.json"},
+		{"name":"t70","file":"motions/temp/t70.exp.json"},
+		{"name":"t80","file":"motions/temp/t80.exp.json"},
+		{"name":"t90","file":"motions/temp/t90.exp.json"},
+		
+		{"name":"t000","file":"motions/temp/t000.exp.json"},
+		{"name":"t100","file":"motions/temp/t100.exp.json"},
+
+		
+		{"name":"t_0c","file":"motions/temp_c/t_0.exp.json"},
+		{"name":"t_1c","file":"motions/temp_c/t_1.exp.json"},
+		{"name":"t_2c","file":"motions/temp_c/t_2.exp.json"},
+		{"name":"t_3c","file":"motions/temp_c/t_3.exp.json"},
+		{"name":"t_4c","file":"motions/temp_c/t_4.exp.json"},
+		{"name":"t_5c","file":"motions/temp_c/t_5.exp.json"},
+		{"name":"t_6c","file":"motions/temp_c/t_6.exp.json"},
+		{"name":"t_7c","file":"motions/temp_c/t_7.exp.json"},
+		{"name":"t_8c","file":"motions/temp_c/t_8.exp.json"},
+		{"name":"t_9c","file":"motions/temp_c/t_9.exp.json"},
+		
+		{"name":"t0c","file":"motions/temp_c/t0.exp.json"},
+		{"name":"t01c","file":"motions/temp_c/t01.exp.json"},
+		{"name":"t02c","file":"motions/temp_c/t02.exp.json"},
+		{"name":"t03c","file":"motions/temp_c/t03.exp.json"},
+		{"name":"t04c","file":"motions/temp_c/t04.exp.json"},
+		{"name":"t05c","file":"motions/temp_c/t05.exp.json"},
+		{"name":"t06c","file":"motions/temp_c/t06.exp.json"},
+		{"name":"t07c","file":"motions/temp_c/t07.exp.json"},
+		{"name":"t08c","file":"motions/temp_c/t08.exp.json"},
+		{"name":"t09c","file":"motions/temp_c/t09.exp.json"},
+		
+		{"name":"t00c","file":"motions/temp_c/t00.exp.json"},
+		{"name":"t10c","file":"motions/temp_c/t10.exp.json"},
+		{"name":"t20c","file":"motions/temp_c/t20.exp.json"},
+		{"name":"t30c","file":"motions/temp_c/t30.exp.json"},
+		{"name":"t40c","file":"motions/temp_c/t40.exp.json"},
+		{"name":"t50c","file":"motions/temp_c/t50.exp.json"},
+		{"name":"t60c","file":"motions/temp_c/t60.exp.json"},
+		{"name":"t70c","file":"motions/temp_c/t70.exp.json"},
+		{"name":"t80c","file":"motions/temp_c/t80.exp.json"},
+		{"name":"t90c","file":"motions/temp_c/t90.exp.json"},
+	
+
+			
+		{"name":"L0" ,"file":"motions/level/L0.exp.json"},
+		{"name":"L01","file":"motions/level/L01.exp.json"},
+		{"name":"L02","file":"motions/level/L02.exp.json"},
+		{"name":"L03","file":"motions/level/L03.exp.json"},
+		{"name":"L04","file":"motions/level/L04.exp.json"},
+		{"name":"L05","file":"motions/level/L05.exp.json"},
+		{"name":"L06","file":"motions/level/L06.exp.json"},
+		{"name":"L07","file":"motions/level/L07.exp.json"},
+		{"name":"L08","file":"motions/level/L08.exp.json"},
+		{"name":"L09","file":"motions/level/L09.exp.json"},
+		
+		{"name":"L00","file":"motions/level/L00.exp.json"},
+		{"name":"L10","file":"motions/level/L10.exp.json"},
+		{"name":"L20","file":"motions/level/L20.exp.json"},
+		{"name":"L30","file":"motions/level/L30.exp.json"},
+		{"name":"L40","file":"motions/level/L40.exp.json"},
+		{"name":"L50","file":"motions/level/L50.exp.json"},
+		{"name":"L60","file":"motions/level/L60.exp.json"},
+		{"name":"L70","file":"motions/level/L70.exp.json"},
+		{"name":"L80","file":"motions/level/L80.exp.json"},
+		{"name":"L90","file":"motions/level/L90.exp.json"},
+		{"name":"L100","file":"motions/level/L100.exp.json"},
+
+	
+		{"name":"s00","file":"motions/minute/s00.exp.json"},
+		{"name":"s01","file":"motions/minute/s01.exp.json"},
+	
+				
+		{"name":"m00","file":"motions/minute/m00.exp.json"},
+		{"name":"m01","file":"motions/minute/m01.exp.json"},
+		{"name":"m02","file":"motions/minute/m02.exp.json"},
+		{"name":"m03","file":"motions/minute/m03.exp.json"},
+		{"name":"m04","file":"motions/minute/m04.exp.json"},
+		{"name":"m05","file":"motions/minute/m05.exp.json"},
+		{"name":"m06","file":"motions/minute/m06.exp.json"},
+		{"name":"m07","file":"motions/minute/m07.exp.json"},
+		{"name":"m08","file":"motions/minute/m08.exp.json"},
+		{"name":"m09","file":"motions/minute/m09.exp.json"},	
+		
+		{"name":"m10","file":"motions/minute/m10.exp.json"},
+		{"name":"m20","file":"motions/minute/m20.exp.json"},
+		{"name":"m30","file":"motions/minute/m30.exp.json"},
+		{"name":"m40","file":"motions/minute/m40.exp.json"},
+		{"name":"m50","file":"motions/minute/m50.exp.json"},
+		{"name":"m60","file":"motions/minute/m60.exp.json"},
+		
+		{"name":"h00","file":"motions/hour/h00.exp.json"},
+		{"name":"h01","file":"motions/hour/h01.exp.json"},
+		{"name":"h02","file":"motions/hour/h02.exp.json"},
+		{"name":"h03","file":"motions/hour/h03.exp.json"},
+		{"name":"h04","file":"motions/hour/h04.exp.json"},
+		{"name":"h05","file":"motions/hour/h05.exp.json"},
+		{"name":"h06","file":"motions/hour/h06.exp.json"},
+		{"name":"h07","file":"motions/hour/h07.exp.json"},
+		{"name":"h08","file":"motions/hour/h08.exp.json"},
+		{"name":"h09","file":"motions/hour/h09.exp.json"},
+		{"name":"h10","file":"motions/hour/h10.exp.json"},
+		{"name":"h11","file":"motions/hour/h11.exp.json"},
+		{"name":"h12","file":"motions/hour/h12.exp.json"},
+		{"name":"h13","file":"motions/hour/h13.exp.json"},
+		{"name":"h14","file":"motions/hour/h14.exp.json"},
+		{"name":"h15","file":"motions/hour/h15.exp.json"},
+		{"name":"h16","file":"motions/hour/h16.exp.json"},
+		{"name":"h17","file":"motions/hour/h17.exp.json"},
+		{"name":"h18","file":"motions/hour/h18.exp.json"},
+		{"name":"h19","file":"motions/hour/h19.exp.json"},
+		{"name":"h20","file":"motions/hour/h20.exp.json"},
+		{"name":"h21","file":"motions/hour/h21.exp.json"},	
+		{"name":"h22","file":"motions/hour/h22.exp.json"},	
+		{"name":"h23","file":"motions/hour/h23.exp.json"},
+	
+
+		{"name":"y00","file":"motions/year/y00.exp.json"},
+		{"name":"y01","file":"motions/year/y01.exp.json"},
+		{"name":"y02","file":"motions/year/y02.exp.json"},
+		{"name":"y03","file":"motions/year/y03.exp.json"},
+		{"name":"y04","file":"motions/year/y04.exp.json"},
+		{"name":"y05","file":"motions/year/y05.exp.json"},
+		{"name":"y06","file":"motions/year/y06.exp.json"},
+		{"name":"y07","file":"motions/year/y07.exp.json"},
+		{"name":"y08","file":"motions/year/y08.exp.json"},
+		{"name":"y09","file":"motions/year/y09.exp.json"},
+		
+		{"name":"y10","file":"motions/year/y10.exp.json"},
+		{"name":"y20","file":"motions/year/y20.exp.json"},
+		{"name":"y30","file":"motions/year/y30.exp.json"},
+		{"name":"y40","file":"motions/year/y40.exp.json"},
+		{"name":"y50","file":"motions/year/y50.exp.json"},
+		{"name":"y60","file":"motions/year/y60.exp.json"},
+		{"name":"y70","file":"motions/year/y70.exp.json"},
+		{"name":"y80","file":"motions/year/y80.exp.json"},
+		{"name":"y90","file":"motions/year/y90.exp.json"},
+		{"name":"y100","file":"motions/year/y100.exp.json"},	
+		
+	
+		{"name":"n01","file":"motions/month/n01.exp.json"},
+		{"name":"n02","file":"motions/month/n02.exp.json"},
+		{"name":"n03","file":"motions/month/n03.exp.json"},
+		{"name":"n04","file":"motions/month/n04.exp.json"},
+		{"name":"n05","file":"motions/month/n05.exp.json"},		
+		{"name":"n06","file":"motions/month/n06.exp.json"},
+		{"name":"n07","file":"motions/month/n07.exp.json"},
+		{"name":"n08","file":"motions/month/n08.exp.json"},
+		{"name":"n09","file":"motions/month/n09.exp.json"},			
+		{"name":"n10","file":"motions/month/n10.exp.json"},
+		{"name":"n11","file":"motions/month/n11.exp.json"},
+		{"name":"n12","file":"motions/month/n12.exp.json"},	
+		
+		
+		{"name":"d00","file":"motions/day/d00.exp.json"},
+		{"name":"d01","file":"motions/day/d01.exp.json"},
+		{"name":"d02","file":"motions/day/d02.exp.json"},
+		{"name":"d03","file":"motions/day/d03.exp.json"},
+		{"name":"d04","file":"motions/day/d04.exp.json"},
+		{"name":"d05","file":"motions/day/d05.exp.json"},
+		{"name":"d06","file":"motions/day/d06.exp.json"},
+		{"name":"d07","file":"motions/day/d07.exp.json"},
+		{"name":"d08","file":"motions/day/d08.exp.json"},
+		{"name":"d09","file":"motions/day/d09.exp.json"},	
+		
+		{"name":"d10","file":"motions/day/d10.exp.json"},
+		{"name":"d20","file":"motions/day/d20.exp.json"},
+		{"name":"d30","file":"motions/day/d30.exp.json"},
+		{"name":"d40","file":"motions/day/d40.exp.json"},
+		
+
+		{"name":"we00","file":"motions/week/we00.exp.json"},
+		{"name":"we01","file":"motions/week/we01.exp.json"},
+		{"name":"we02","file":"motions/week/we02.exp.json"},
+		{"name":"we03","file":"motions/week/we03.exp.json"},
+		{"name":"we04","file":"motions/week/we04.exp.json"},
+		{"name":"we05","file":"motions/week/we05.exp.json"},
+		{"name":"we06","file":"motions/week/we06.exp.json"}
+	],
+	
+
+	"hit_areas":
+	[
+		{"name":"board", "id":"D_REF.BOARD"}
+	],
+	
+	"motions":
+	{	
+
+	}
+}
